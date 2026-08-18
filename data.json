@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T10:46:26.832482+00:00",
+  "updated_at": "2026-08-18T12:57:41.655847+00:00",
   "source_file": "INVENTÁRIO15-08.xlsx",
   "summary": {
     "inventory_items": 110,
@@ -10,8 +10,10 @@
     "total_adjustment_qty": 1519.0,
     "total_stock_value": 161226.37,
     "total_difference_value": 34119.4,
-    "mean_quantity_accuracy": 0.9810967772856929,
-    "median_quantity_accuracy": 1,
+    "shortage_value": 9936.07,
+    "mean_quantity_accuracy": 0.7575439451507576,
+    "weighted_quantity_accuracy": 0.830698057606388,
+    "median_quantity_accuracy": 0.99581589958159,
     "mean_financial_accuracy": 0.7533174698716507,
     "zero_count_items": 42,
     "overage_items": 31,
@@ -391,7 +393,7 @@
       "stock_value": 617.88,
       "difference_value": 905.14,
       "divergence_pct": 1.4649122807017543,
-      "quantity_accuracy": -0.4649122807017543,
+      "quantity_accuracy": 0,
       "financial_accuracy": -0.4649122807017543
     },
     {
@@ -475,7 +477,7 @@
       "stock_value": 1012.91,
       "difference_value": 1012.91,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -489,7 +491,7 @@
       "stock_value": 5351.64,
       "difference_value": 116.34,
       "divergence_pct": 0.021739130434782608,
-      "quantity_accuracy": 1.0217391304347827,
+      "quantity_accuracy": 0.9782608695652174,
       "financial_accuracy": 0.9782608695652174
     },
     {
@@ -503,7 +505,7 @@
       "stock_value": 2047.6499999999999,
       "difference_value": 3.65,
       "divergence_pct": 0.0017825311942959,
-      "quantity_accuracy": 1.0017825311942958,
+      "quantity_accuracy": 0.9982174688057041,
       "financial_accuracy": 0.9982174688057041
     },
     {
@@ -559,7 +561,7 @@
       "stock_value": 5498.8,
       "difference_value": 9.32,
       "divergence_pct": 0.001694915254237288,
-      "quantity_accuracy": 1.0016949152542374,
+      "quantity_accuracy": 0.9983050847457627,
       "financial_accuracy": 0.9983050847457627
     },
     {
@@ -573,7 +575,7 @@
       "stock_value": 10617.199999999999,
       "difference_value": 10.45,
       "divergence_pct": 0.000984251968503937,
-      "quantity_accuracy": 1.000984251968504,
+      "quantity_accuracy": 0.9990157480314961,
       "financial_accuracy": 0.9990157480314961
     },
     {
@@ -587,7 +589,7 @@
       "stock_value": 3855.6,
       "difference_value": 304.28999999999996,
       "divergence_pct": 0.07892156862745098,
-      "quantity_accuracy": 1.078921568627451,
+      "quantity_accuracy": 0.9210784313725491,
       "financial_accuracy": 0.9210784313725491
     },
     {
@@ -601,7 +603,7 @@
       "stock_value": 2886.3999999999996,
       "difference_value": 1.64,
       "divergence_pct": 0.0005681818181818182,
-      "quantity_accuracy": 1.0005681818181817,
+      "quantity_accuracy": 0.9994318181818181,
       "financial_accuracy": 0.9994318181818181
     },
     {
@@ -671,7 +673,7 @@
       "stock_value": 2060.0,
       "difference_value": 2060.0,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -713,7 +715,7 @@
       "stock_value": 1555.5,
       "difference_value": 86.69999999999999,
       "divergence_pct": 0.05573770491803279,
-      "quantity_accuracy": 1.0557377049180328,
+      "quantity_accuracy": 0.9442622950819672,
       "financial_accuracy": 0.9442622950819672
     },
     {
@@ -727,7 +729,7 @@
       "stock_value": 2464.32,
       "difference_value": 5.44,
       "divergence_pct": 0.002207505518763797,
-      "quantity_accuracy": 1.0022075055187638,
+      "quantity_accuracy": 0.9977924944812362,
       "financial_accuracy": 0.9977924944812362
     },
     {
@@ -755,7 +757,7 @@
       "stock_value": 11.55,
       "difference_value": 11.55,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -769,7 +771,7 @@
       "stock_value": 10210.2,
       "difference_value": 2020.2,
       "divergence_pct": 0.19786096256684493,
-      "quantity_accuracy": 1.1978609625668448,
+      "quantity_accuracy": 0.8021390374331551,
       "financial_accuracy": 0.8021390374331551
     },
     {
@@ -783,7 +785,7 @@
       "stock_value": 397.07000000000005,
       "difference_value": 397.07000000000005,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -797,7 +799,7 @@
       "stock_value": 477.12,
       "difference_value": 119.28,
       "divergence_pct": 0.25,
-      "quantity_accuracy": 1.25,
+      "quantity_accuracy": 0.75,
       "financial_accuracy": 0.75
     },
     {
@@ -811,7 +813,7 @@
       "stock_value": 2922.7400000000002,
       "difference_value": 4.61,
       "divergence_pct": 0.0015772870662460567,
-      "quantity_accuracy": 1.001577287066246,
+      "quantity_accuracy": 0.998422712933754,
       "financial_accuracy": 0.998422712933754
     },
     {
@@ -923,7 +925,7 @@
       "stock_value": 696.0,
       "difference_value": 696.0,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -965,7 +967,7 @@
       "stock_value": 2293.9,
       "difference_value": 10.15,
       "divergence_pct": 0.004424778761061947,
-      "quantity_accuracy": 1.0044247787610618,
+      "quantity_accuracy": 0.995575221238938,
       "financial_accuracy": 0.995575221238938
     },
     {
@@ -1119,7 +1121,7 @@
       "stock_value": 69.4,
       "difference_value": 69.4,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -1133,7 +1135,7 @@
       "stock_value": 2247.7000000000003,
       "difference_value": 39.52,
       "divergence_pct": 0.017582417582417582,
-      "quantity_accuracy": 1.0175824175824175,
+      "quantity_accuracy": 0.9824175824175824,
       "financial_accuracy": 0.9824175824175824
     },
     {
@@ -1147,7 +1149,7 @@
       "stock_value": 2247.7000000000003,
       "difference_value": 1057.16,
       "divergence_pct": 0.4703296703296703,
-      "quantity_accuracy": 1.4703296703296704,
+      "quantity_accuracy": 0.5296703296703297,
       "financial_accuracy": 0.5296703296703297
     },
     {
@@ -1203,7 +1205,7 @@
       "stock_value": 230.39999999999998,
       "difference_value": 57.599999999999994,
       "divergence_pct": 0.25,
-      "quantity_accuracy": 1.25,
+      "quantity_accuracy": 0.75,
       "financial_accuracy": 0.75
     },
     {
@@ -1231,7 +1233,7 @@
       "stock_value": 8858.0,
       "difference_value": 25.799999999999997,
       "divergence_pct": 0.002912621359223301,
-      "quantity_accuracy": 1.0029126213592232,
+      "quantity_accuracy": 0.9970873786407767,
       "financial_accuracy": 0.9970873786407767
     },
     {
@@ -1245,7 +1247,7 @@
       "stock_value": 1535.45,
       "difference_value": 37.45,
       "divergence_pct": 0.024390243902439025,
-      "quantity_accuracy": 1.024390243902439,
+      "quantity_accuracy": 0.975609756097561,
       "financial_accuracy": 0.975609756097561
     },
     {
@@ -1259,7 +1261,7 @@
       "stock_value": 584.8,
       "difference_value": 86.0,
       "divergence_pct": 0.14705882352941177,
-      "quantity_accuracy": 1.1470588235294117,
+      "quantity_accuracy": 0.8529411764705882,
       "financial_accuracy": 0.8529411764705882
     },
     {
@@ -1301,7 +1303,7 @@
       "stock_value": 89.58,
       "difference_value": 89.58,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -1329,7 +1331,7 @@
       "stock_value": 152.85,
       "difference_value": 152.85,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -1357,7 +1359,7 @@
       "stock_value": 493.83,
       "difference_value": 8.370000000000001,
       "divergence_pct": 0.01694915254237288,
-      "quantity_accuracy": 1.0169491525423728,
+      "quantity_accuracy": 0.9830508474576272,
       "financial_accuracy": 0.9830508474576272
     },
     {
@@ -1399,7 +1401,7 @@
       "stock_value": 4553.59,
       "difference_value": 814.37,
       "divergence_pct": 0.17884130982367757,
-      "quantity_accuracy": 1.1788413098236776,
+      "quantity_accuracy": 0.8211586901763224,
       "financial_accuracy": 0.8211586901763224
     },
     {
@@ -1413,7 +1415,7 @@
       "stock_value": 105.0,
       "difference_value": 42.0,
       "divergence_pct": 0.4,
-      "quantity_accuracy": 1.4,
+      "quantity_accuracy": 0.6,
       "financial_accuracy": 0.6
     },
     {
@@ -1427,7 +1429,7 @@
       "stock_value": 10.0,
       "difference_value": 10.0,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -1441,7 +1443,7 @@
       "stock_value": 40.29,
       "difference_value": 13.43,
       "divergence_pct": 0.3333333333333333,
-      "quantity_accuracy": 1.3333333333333333,
+      "quantity_accuracy": 0.6666666666666667,
       "financial_accuracy": 0.6666666666666667
     },
     {
@@ -1455,7 +1457,7 @@
       "stock_value": 456.55999999999995,
       "difference_value": 456.55999999999995,
       "divergence_pct": 1.0,
-      "quantity_accuracy": 2.0,
+      "quantity_accuracy": 0,
       "financial_accuracy": 0.0
     },
     {
@@ -1539,7 +1541,7 @@
       "stock_value": 1542.51,
       "difference_value": 106.38,
       "divergence_pct": 0.06896551724137931,
-      "quantity_accuracy": 1.0689655172413792,
+      "quantity_accuracy": 0.9310344827586207,
       "financial_accuracy": 0.9310344827586207
     },
     {
